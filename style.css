@@ -1,5 +1,6 @@
 body{
     background-color: #007aff !important;
+    font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -19,4 +20,32 @@ body{
 }
 .quiz-card{
     width: 30rem;
+}
+.quiz-answer-card:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.card-bodyF{
+    border-radius: 5px;
+    background-color: red;
+    color: white !important;
+}
+.card-bodyR{
+    border-radius: 5px;
+    background-color: rgb(96, 236, 154);
+    color: white !important;
+}
+.text-center{
+    text-align: center;
+}
+.finishButton{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.final-headline{
+    font-size: 38px;
+    margin-bottom: 32px;
 }
